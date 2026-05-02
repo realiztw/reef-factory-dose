@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Reef Factory X3 Dosing Pump",
+        "description": "Enter your Smart Reef account credentials and the X3 Dosing Pump serial number.\n\nThe serial number is shown in the Smart Reef app under **Device Settings**.",
+        "data": {
+          "email": "Smart Reef Email",
+          "password": "Smart Reef Password",
+          "serial": "Device Serial Number"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password. Check your Smart Reef account credentials.",
+      "cannot_connect": "Could not connect to the Reef Factory API. Check your internet connection.",
+      "unknown": "Unexpected error. Check the Home Assistant logs for details."
+    },
+    "abort": {
+      "already_configured": "This X3 Dosing Pump device is already configured."
+    }
+  }
+}
